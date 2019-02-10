@@ -19,8 +19,8 @@ app.get('/swift',(req,res)=>{
     res.sendFile(__dirname + '/public/swift.html');
 });
 
-app.get('/css',(req,res)=>{
-    res.sendFile(__dirname + '/public/css.html');
+app.get('/html',(req,res)=>{
+    res.sendFile(__dirname + '/public/html.html');
 });
 //messages in particualar chat rooms
 const tech = io.of('/tech');
