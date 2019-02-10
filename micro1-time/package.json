@@ -1,0 +1,16 @@
+{
+  "name": "micro1-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Mazur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
